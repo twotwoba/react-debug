@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.fixAll.eslint": "always",
+        "source.fixAll.stylelint": "always"
+    },
+    "tailwindCSS.experimental.classRegex": [
+        ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"], // clsx('xxx')
+        ["\\/\\* tw \\*\\/\\s+`([^`]*)"] // /* tw */ `xxx`
+    ],
+    "tailwindCSS.rootFontSize": 10,
+    "javascript.validate.enable": false
+}
